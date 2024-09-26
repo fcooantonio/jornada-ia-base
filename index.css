@@ -17,8 +17,10 @@
 }
 
 .cabecalho__navegacao {
-    display: flex;
-    gap: 40px;
+    & ul {
+        display: flex;
+        gap: 40px;
+    }
 }
 
 .cabecalho__navegacao--item {
